@@ -8,7 +8,7 @@ fi
 
 # Check if the RUNNER_TOKEN is set
 if [ -z "$RUNNER_REPO" ]; then
-  echo "Error: RUNNER_TOKEN is not set."
+  echo "Error: RUNNER_REPO is not set."
   exit 1
 fi
 
