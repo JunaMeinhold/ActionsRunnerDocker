@@ -8,5 +8,5 @@ docker build --build-arg TARGETOS=linux --build-arg TARGETARCH=arm64 --build-arg
 ```
 ### Run:
 ```sh
-docker run --restart unless-stopped -e RUNNER_TOKEN=<your-token> actions-runner
+docker run --restart unless-stopped -e RUNNER_TOKEN=<your-token> RUNNER_REPO=<your-repo/organisation> actions-runner
 ```
